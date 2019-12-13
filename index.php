@@ -45,7 +45,7 @@
 		</div>		
 		<div class="col-sm-12 col-md-6 col-lg-6">
 			<h3>Login</h3><hr />
-			<p>Ya tienes una cuenta? <a href="login.html" title="Login Here">Entre aquí!</a></p>
+			<p>Ya tienes una cuenta? <a href="login.php" title="Login Here">Entre aquí!</a></p>
 		</div>
 	</div>
 </div>
