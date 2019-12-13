@@ -40,11 +40,11 @@
 
     if($_SERVER["REQUEST_METHOD"] == "POST"){
       $dataPesquisa = $_POST['emergentes'];
-      $sql = "SELECT * FROM data WHERE data LIKE '%" .$dataPesquisa. "%'";
+      $sql = "SELECT * FROM data WHERE data LIKE '%" .$dataPesquisa. "%' order by id desc limit 10";
     }
     else{
       $dataActual = date('Y-m');
-      $sql = "SELECT * FROM data WHERE data LIKE  '%" .$dataActual. "%'";
+      $sql = "SELECT * FROM data WHERE data LIKE  '%" .$dataActual. "%' order by id desc limit 10";
     }
 
     $stmt = $PDO->prepare($sql);
