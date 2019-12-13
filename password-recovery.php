@@ -45,7 +45,7 @@
 				<span aria-hidden='true'>&times;</span></button>
 
 				<p>Email was send! Please check your email.</p>
-				<p><a class='alert-link' href=login.html>Login</a></p></div>";
+				<p><a class='alert-link' href=login.php>Login</a></p></div>";
 			} else {
 				echo "We are sorry, but that email is not in our data base.";
 			}
