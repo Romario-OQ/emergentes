@@ -32,7 +32,7 @@
 							</form>
 							</div>
 													
-							<hr><p>Crear una cuenta? <a href="index.html" title="Create an account">Crear Cuenta</a>.</p>								
+							<hr><p>Crear una cuenta? <a href="index.php" title="Create an account">Crear Cuenta</a>.</p>								
 						</div><!-- /.loginBox -->	
 					</div><!-- /.card -->
 				</div><!-- /.col -->
