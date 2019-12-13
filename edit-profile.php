@@ -22,7 +22,7 @@ session_start();
     else {
         echo "<div class='alert alert-danger mt-4' role='alert'>
         <h4>You need to login to access this page.</h4>
-        <p><a href='login.html'>Login Here!</a></p></div>";
+        <p><a href='login.php'>Login Here!</a></p></div>";
         exit;
     }
     // checking the time now when check-login.php page starts
@@ -31,7 +31,7 @@ session_start();
         session_destroy();
         echo "<div class='alert alert-danger mt-4' role='alert'>
         <h4>Your session has expire!</h4>
-        <p><a href='login.html'>Login Here</a></p></div>";
+        <p><a href='login.php'>Login Here</a></p></div>";
         exit;
         }
     ?>
