@@ -1,7 +1,7 @@
 <?php
 // Connection variables
-$dbhost	= "localhost";	   // localhost or IP
-$dbuser	= "root";		  // database username
-$dbpass	= "";		     // database password
-$dbname	= "emergentes";    // database name
+$dbhost	= "ec2-174-129-255-72.compute-1.amazonaws.com";	   // localhost or IP
+$dbuser	= "eigrdorbnvbzyj";		  // database username
+$dbpass	= "12345";		     // database password
+$dbname	= "d3voea58ggit40";    // database name
 ?>
