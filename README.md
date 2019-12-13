@@ -1,0 +1,2 @@
+# emergentes
+ph y temperatura
